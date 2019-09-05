@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- 
+  Use this file will caused all @BeforeSuite method called at a time - TC fail
+  - We must use separated suite or suite list as on course-list-suite.xml OR
+  - User @BeforeTest instead
+ -->
+<suite name="Course List Test">
+	<test name="Not Logged In test">
+		<groups>
+			<run>
+				<include name="not_logged_in" />
+			</run>
+		</groups>
+		<classes>
+			<class name="appium.android.knowable.test.CourseListPageTest" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Logged In Test">
+		<groups>
+			<run>
+				<include name="logged_in" />
+			</run>
+		</groups>
+		<classes>
+			<class name="appium.android.knowable.test.CourseListPageTest" />
+		</classes>
+	</test>
+</suite> <!-- Suite -->

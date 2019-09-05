@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Logged In Suite]">
+  <test thread-count="5" name="Course List - Logged In(failed)">
+    <groups>
+      <run>
+        <include name="logged_in"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="appium.android.knowable.test.CourseListPageTest">
+        <methods>
+          <include name="setUp_loggedIn"/>
+          <include name="testHeadLine"/>
+          <include name="doLogout"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- appium.android.knowable.test.CourseListPageTest -->
+    </classes>
+  </test> <!-- Course List - Logged In(failed) -->
+</suite> <!-- Failed suite [Logged In Suite] -->

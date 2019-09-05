@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Not Logged In Suite">
+	<test name="Course List - Not Logged In">
+		<groups>
+			<run>
+				<include name="not_logged_in" />
+			</run>
+		</groups>
+		<classes>
+			<class name="appium.android.knowable.test.CourseListPageTest" />
+		</classes>
+	</test>
+</suite>

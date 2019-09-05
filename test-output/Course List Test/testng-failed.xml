@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Course List Test]">
+  <test thread-count="5" name="Not Logged In test(failed)">
+    <groups>
+      <run>
+        <include name="not_logged_in"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="appium.android.knowable.test.CourseListPageTest">
+        <methods>
+          <include name="testOpenCourseDetail"/>
+          <include name="testScrollCourseList"/>
+          <include name="setUp"/>
+          <include name="setUp_notLoggedIn"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- appium.android.knowable.test.CourseListPageTest -->
+    </classes>
+  </test> <!-- Not Logged In test(failed) -->
+  <test thread-count="5" name="Logged In Test(failed)">
+    <groups>
+      <run>
+        <include name="logged_in"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="appium.android.knowable.test.CourseListPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="setUp_loggedIn"/>
+          <include name="testHeadLine"/>
+          <include name="doLogout"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- appium.android.knowable.test.CourseListPageTest -->
+    </classes>
+  </test> <!-- Logged In Test(failed) -->
+</suite> <!-- Failed suite [Course List Test] -->

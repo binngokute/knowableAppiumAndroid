@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Course Details Test Suite]">
+  <test thread-count="5" name="Course Details Test(failed)">
+    <classes>
+      <class name="appium.android.knowable.test.CourseDetailPageTest">
+        <methods>
+          <include name="test_defaultSelectedTab"/>
+          <include name="test_selectTab"/>
+          <include name="test_swipeBack"/>
+          <include name="test_allTabsIsPrent"/>
+          <include name="tearDown"/>
+          <include name="test_swipeToNextTab"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- appium.android.knowable.test.CourseDetailPageTest -->
+    </classes>
+  </test> <!-- Course Details Test(failed) -->
+</suite> <!-- Failed suite [Course Details Test Suite] -->

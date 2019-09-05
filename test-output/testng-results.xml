@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="80953" started-at="2019-09-05T16:32:08Z" finished-at="2019-09-05T16:33:29Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="80953" started-at="2019-09-05T16:32:08Z" finished-at="2019-09-05T16:33:29Z">
+      <class name="appium.android.knowable.test.FullPlayerPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:appium.android.knowable.test.FullPlayerPageTest@25bbe1b6]" name="setup" is-config="true" duration-ms="38854" started-at="2019-09-05T16:32:08Z" finished-at="2019-09-05T16:32:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test_skipForwardBackward_audioPaused()[pri:0, instance:appium.android.knowable.test.FullPlayerPageTest@25bbe1b6]" name="test_skipForwardBackward_audioPaused" duration-ms="22660" started-at="2019-09-05T16:32:47Z" finished-at="2019-09-05T16:33:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_skipForwardBackward_audioPaused -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:appium.android.knowable.test.FullPlayerPageTest@25bbe1b6]" name="tearDown" is-config="true" duration-ms="19398" started-at="2019-09-05T16:33:09Z" finished-at="2019-09-05T16:33:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_skipForwardBackward_audioPaused status=SUCCESS method=FullPlayerPageTest.test_skipForwardBackward_audioPaused()[pri:0, instance:appium.android.knowable.test.FullPlayerPageTest@25bbe1b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- appium.android.knowable.test.FullPlayerPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

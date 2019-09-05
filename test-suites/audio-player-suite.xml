@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Audio Player Test Suite">
+	<test name="Full Audio Player Test">
+		<classes>
+			<class name="appium.android.knowable.test.FullPlayerPageTest" />
+		</classes>
+	</test>
+</suite>

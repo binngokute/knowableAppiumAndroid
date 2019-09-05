@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Course List Test">
+   <suite-files>
+      <suite-file path="./not-logged-in-suite.xml"></suite-file>
+      <suite-file path="./logged-in-suite.xml"></suite-file>
+   </suite-files>
+</suite>
